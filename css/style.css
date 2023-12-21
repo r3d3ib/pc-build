@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@400;500;600;900&family=Quicksand:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Per evitare la barra di scorrimento orizzontale */
+}
+
+  /* Stile della banda nera a sinistra */
+  .black-bar.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px; /* Larghezza della banda nera */
+    background-color: #000;
+    background-image: url("/img/1699636929684.jpg");
+    padding: 20px;
+  }
+
+  /* Stile della banda nera a destra */
+  .black-bar.right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80px; /* Larghezza della banda nera */
+    background-color: #000;
+    background-image: url("/img/1699636740587.jpg");
+    padding: 20px;
+  }
+
+  .navbar {
+    background-color: #B931FC;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex; /* Usa Flexbox per allineare gli elementi in modo orizzontale */
+    justify-content: space-between;    /* Spaziatura uniforme tra gli elementi */
+    align-items: center;
+  }
+
+  /* Aggiungi stili per i link nella navbar (opzionale) */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 50px;
+  }
+
+.nav-twitch {
+    text-decoration: none;
+    color: white;
+    width: 50px;
+}
+
+.navbar h2 {
+    margin-left: 20px; /* Regola questo valore in base alle tue esigenze */
+}
+
+.introduzione {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Poppins","sans-serif";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desc-int {
+    margin-top: 10px;
+    margin-left: 160px;
+    font-family: "Poppins","sans-serif";
+    font-size: 20px;
+}
+
+.ps {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 200px;
+  max-width: 1150px; /* Aumentato il limite di larghezza */
+}
+
+.row {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #B931FC; /* Raddoppiata la larghezza del bordo */
+  margin-bottom: 30px; /* Aumentato il margine inferiore */
+  padding: 40px; /* Aggiunto il padding */
+}
+
+.cell {
+  padding: 15px; /* Aumentato il padding */
+  flex: 1;
+  margin-right: 50px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px; /* Aumentato il padding */
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50; /* Raddoppiata la larghezza del bordo */
+  border-radius: 8px; /* Aumentato il raggio del bordo arrotondato */
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 120px; /* Altezza massima dell'immagine */
+  border-radius: 8px; /* Bordo arrotondato per l'immagine */
+  margin-right: 10px; /* Margine destro per separare l'immagine dal testo */
+}

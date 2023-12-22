@@ -14,7 +14,7 @@ body {
     height: 100%;
     width: 80px; /* Larghezza della banda nera */
     background-color: #000;
-    background-image: url("img/1699636929684.jpg");
+    background-image: url("/img/1699636929684.jpg");
     padding: 20px;
   }
 
@@ -26,7 +26,7 @@ body {
     height: 100%;
     width: 80px; /* Larghezza della banda nera */
     background-color: #000;
-    background-image: url("img/1699636740587.jpg");
+    background-image: url("/img/1699636740587.jpg");
     padding: 20px;
   }
 
